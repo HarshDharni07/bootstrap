@@ -1,0 +1,96 @@
+:root{
+    --button-color:#388DA8;
+    --text-color:#3E5055;
+    --highlight-text:#388DA8;
+    --dim-text:#787979;
+    --fontText-font-family: 'Beiruti',arial !important;
+}
+
+body{
+    font-family: var(--fontText-font-family);
+    
+}
+
+.navbar{
+    background: linear-gradient(135deg,rgba(255, 255, 255, 0.2),rgb(255, 255, 255,0.));
+    backdrop-filter:blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 30px rgba(67, 67, 67, 0.3);
+    border: 2px solid rgba(255,255,255,0.18);
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color: #7FBACD;
+}
+
+#home{
+    color:#7FBACD;
+}
+
+#navBtn button{
+    width: 120px;
+    background-color:var(--button-color);
+    color: white    ;
+}
+
+#intro{
+    margin-block-end: 0;
+    width: inherit;
+    height:auto;
+
+}
+
+#intro-box{
+    width: 100%;
+    height:auto;
+    color:var(--text-color);
+    /* border: solid red; */
+    
+}
+
+#intro-text{
+    width: 100%;
+    /* border: blue solid 2px;    */
+}
+
+#introText {
+    width: 100%;
+    font-family: var(--fontText-font-family);
+    font-weight:700;
+    font-size: 50px;
+    /* border: violet solid; */
+    
+}
+#introText p ,span .highlight{
+    color: var(--highlight-text);
+}
+
+.p2{
+    color: var(--dim-text);
+    font-size: 20px;
+    /* border: violet solid; */
+    
+}
+
+#intro-button{
+    width: 30%;
+
+}
+
+#introBtn1{
+    width: 120px;
+    background-color:var(--button-color);
+    color: white;
+}
+#introBtn2{
+    width: 120px;
+    /* background-color:var(--button-color); */
+    color: white;
+}
+
+
+
+
+
+
+
+
