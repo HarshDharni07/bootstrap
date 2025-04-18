@@ -85,6 +85,12 @@ body{
     width: 120px;
     /* background-color:var(--button-color); */
     color: white;
+    border: none;
+}
+
+#introBtn2:hover{
+    background-color: transparent;
+    border: 1px solid var(--dim-text);
 }
 
 
